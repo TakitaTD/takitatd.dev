@@ -13,16 +13,20 @@ specifiers:
   eslint: ^7.32.0
   eslint-plugin-vue: ^8.0.3
   lint-staged: ^11.1.2
+  nprogress: ^0.2.0
   register-service-worker: ^1.7.2
   sass: ^1.32.7
   sass-loader: ^12.0.0
+  typed.js: ^2.0.12
   vue: ^3.2.13
   vue-router: ^4.0.3
   vuex: ^4.0.0
 
 dependencies:
   core-js: 3.21.1
+  nprogress: 0.2.0
   register-service-worker: 1.7.2
+  typed.js: 2.0.12
   vue: 3.2.31
   vue-router: 4.0.14_vue@3.2.31
   vuex: 4.0.2_vue@3.2.31
@@ -5088,6 +5092,10 @@ packages:
       path-key: 3.1.1
     dev: true
 
+  /nprogress/0.2.0:
+    resolution: {integrity: sha1-y480xTIT2JVyP8urkH6UIq28r7E=}
+    dev: false
+
   /nth-check/2.0.1:
     resolution: {integrity: sha512-it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==}
     dependencies:
@@ -6766,6 +6774,10 @@ packages:
       media-typer: 0.3.0
       mime-types: 2.1.35
     dev: true
+
+  /typed.js/2.0.12:
+    resolution: {integrity: sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==}
+    dev: false
 
   /unbox-primitive/1.0.1:
     resolution: {integrity: sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw==}
