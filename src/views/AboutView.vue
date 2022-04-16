@@ -75,13 +75,14 @@ import TechnologyComponent from "@/components/TechnologyComponent.vue";
 
 import nord_buildings from "@/assets/nord_buildings.png";
 import logo from "@/assets/logo.png";
-import reactLogo from '@/assets/react.js.png'
-import angularLogo from '@/assets/angular.png'
-import nuxtLogo from '@/assets/nuxt.js.svg'
-import sassLogo from '@/assets/sass.png'
-import cssLogo from '@/assets/css.jpg'
-import htmlLogo from '@/assets/html.png'
-import jsLogo from '@/assets/javascript.png'
+import reactLogo from '@/assets/react.js.png';
+import angularLogo from '@/assets/angular.png';
+import nuxtLogo from '@/assets/nuxt.js.svg';
+import sassLogo from '@/assets/sass.png';
+import cssLogo from '@/assets/css.jpg';
+import htmlLogo from '@/assets/html.png';
+import svelteLogo from '@/assets/svelte.png';
+import solidjsLogo from '@/assets/solid.js.png';
 
 
 import TypedJS from "typed.js";
@@ -122,6 +123,16 @@ export default {
           image: nuxtLogo
         },
         {
+          name: "Svelte",
+          link: "https://svelte.dev/",
+          image: svelteLogo
+        },
+        {
+          name: "Solid.js",
+          link: "https://solidjs.com/",
+          image: solidjsLogo
+        },
+        {
           name: "Sass",
           link: "https://sass-lang.com/",
           image: sassLogo
@@ -136,11 +147,6 @@ export default {
           link: "https://www.w3.org/html/",
           image: htmlLogo
         },
-        {
-          name: "JavaScript",
-          link: "https://javascript.com/",
-          image: jsLogo
-        }
       ],
     };
   },
