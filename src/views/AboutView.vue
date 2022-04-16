@@ -53,7 +53,16 @@
           </span>
         </span>
       </Header>
-      <Description style="color: #d8dee9; margin-top: 1rem; display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap">
+      <Description
+        style="
+          color: #d8dee9;
+          margin-top: 1rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        "
+      >
         <Technology
           v-for="item in technologies"
           :link="item.link"
@@ -75,15 +84,14 @@ import TechnologyComponent from "@/components/TechnologyComponent.vue";
 
 import nord_buildings from "@/assets/nord_buildings.png";
 import logo from "@/assets/logo.png";
-import reactLogo from '@/assets/react.js.png';
-import angularLogo from '@/assets/angular.png';
-import nuxtLogo from '@/assets/nuxt.js.svg';
-import sassLogo from '@/assets/sass.png';
-import cssLogo from '@/assets/css.jpg';
-import htmlLogo from '@/assets/html.png';
-import svelteLogo from '@/assets/svelte.png';
-import solidjsLogo from '@/assets/solid.js.png';
-
+import reactLogo from "@/assets/react.js.png";
+import angularLogo from "@/assets/angular.png";
+import nuxtLogo from "@/assets/nuxt.js.svg";
+import sassLogo from "@/assets/sass.png";
+import cssLogo from "@/assets/css.jpg";
+import htmlLogo from "@/assets/html.png";
+import svelteLogo from "@/assets/svelte.png";
+import solidjsLogo from "@/assets/solid.js.png";
 
 import TypedJS from "typed.js";
 
@@ -110,42 +118,42 @@ export default {
         {
           name: "React.js",
           link: "https://reactjs.org/",
-          image: reactLogo
+          image: reactLogo,
         },
         {
           name: "Angular",
           link: "https://angular.io/",
-          image: angularLogo
+          image: angularLogo,
         },
         {
           name: "Nuxt.js",
           link: "https://nuxtjs.org/",
-          image: nuxtLogo
+          image: nuxtLogo,
         },
         {
           name: "Svelte",
           link: "https://svelte.dev/",
-          image: svelteLogo
+          image: svelteLogo,
         },
         {
           name: "Solid.js",
           link: "https://solidjs.com/",
-          image: solidjsLogo
+          image: solidjsLogo,
         },
         {
           name: "Sass",
           link: "https://sass-lang.com/",
-          image: sassLogo
+          image: sassLogo,
         },
         {
           name: "CSS",
           link: "https://www.w3.org/Style/CSS/Overview.en.html",
-          image: cssLogo
+          image: cssLogo,
         },
         {
           name: "HTML",
           link: "https://www.w3.org/html/",
-          image: htmlLogo
+          image: htmlLogo,
         },
       ],
     };
